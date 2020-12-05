@@ -17,6 +17,11 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
 * This project is a general display that shows the weather, time, date, and snow day prediction using the Raspberry Pi's WIFI capabilities
 
 ## Libraries 📚
+
+<p> 
+  <img width=256 height=384 align='Right' src="https://github.com/Raziz1/Serial-Communication_RaspberryPi_Arduino/blob/main/images/SnowdayPredictor.png? raw=true">
+</p>
+
 ### Arduino
 * Kuman TFT Display Shield Libraries
   - [LCDWIKI_gui](https://github.com/lcdwiki/LCDWIKI_gui)
