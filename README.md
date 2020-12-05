@@ -55,5 +55,5 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
   1. Press CTRL + ALT + T to open the terminal
   2. Type in 'crontab -e'
   3. At the bottom of the terminal type in the interval of execution as well as the path to the python script
-    * It should look something like this: 
+    * It should look something like this: '50 5 * * * /home/pi/Downloads/script.py' This will run the script every day at 5:50am. You can use [Crontab.guru](https://crontab.guru/) to check your expression. 
  
