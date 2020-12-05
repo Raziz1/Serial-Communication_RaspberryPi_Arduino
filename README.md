@@ -32,5 +32,8 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
  *  [re](https://docs.python.org/3/library/re.html)
  *  [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 
-## API 📶
+## API/Websites 📶
+* [OpenWeather](https://openweathermap.org/)
+* [OSTA](http://www.ottawaschoolbus.ca/)
+* [SnowdayPredictor](https://www.snowdaycalculator.com/)
  
