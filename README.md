@@ -25,4 +25,12 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
 * [Arduino JSON](https://github.com/bblanchon/ArduinoJson)
   - Arduino JSON version 5.13.5 worked for me
  ### Raspberry Pi 4
+ *  [pyserial](https://pypi.org/project/pyserial/)
+ *  [requests](https://pypi.org/project/requests/)
+ *  [json](https://docs.python.org/3/library/json.html)
+ *  [datetime](https://docs.python.org/3/library/datetime.html)
+ *  [re](https://docs.python.org/3/library/re.html)
+ *  [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+
+## API 📶
  
