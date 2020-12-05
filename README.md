@@ -9,7 +9,11 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
 * [Raspberry Pi 4 Model B](https://www.amazon.ca/Raspberry-Pi-Computer-Model-4GB/dp/B07W4JM192/ref=sr_1_7?dchild=1&keywords=raspberry+pi+4&qid=1607186145&sr=8-7)
 * [Arduino Mega/Uno](https://www.amazon.ca/Elegoo-Board-ATmega2560-ATMEGA16U2-Arduino/dp/B01H4ZLZLQ/ref=sr_1_12?dchild=1&keywords=arduino+mega&qid=1607186201&sr=8-12)
 * [USB Type A to USB Type B](https://www.amazon.ca/JSAUX-Printer-Scanner-Compatible-Lexmark/dp/B07RW66XRW/ref=sr_1_7?dchild=1&keywords=usb+a+to+usb+b&qid=1607186219&sr=8-7)
+* [Kuman TFT display](https://www.amazon.ca/480x320-Screen-Module-Arduino-Without/dp/B07NWH47PV/ref=sr_1_24?dchild=1&keywords=tft+display+kuman&qid=1607187338&sr=8-24)
 
 ## Overview
+* The following demonstrates how to communicate between the Raspberry Pi and the Arduino Mega. In this project it is done only one way, from the Raspberry Pi to the Arduino Mega. If you would like to perform two way communcation check out this link on [Serial Communcation Between Raspberry Pi and Arduino](https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/)
+* The python (.py) file is to be run on the Raspberry Pi while the arduino (.ino) file is to be uploaded to the arduino board
+* This project is a general display that shows the weather, time, date, and snow day prediction using the Raspberry Pi's WIFI capabilities
 
 ## Libraries 📚
