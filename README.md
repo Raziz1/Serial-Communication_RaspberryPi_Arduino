@@ -53,9 +53,9 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
   4. Find the new list item and input it into the python code where it says 'ser = serial.Serial('/dev/ttyACM1',9600)'
 * Similarly to one of my previous projects you can setup a task scheduler that runs you python script at specified times. This is done by crontab on a raspberry pi.
   1. Press CTRL + ALT + T to open the terminal
-  2. Type in *_'crontab -e'_*
+  2. Type in **_crontab -e_**
   3. At the bottom of the terminal type in the interval of execution as well as the path to the python script
-      * It should look something like this: '50 5 * * * /home/pi/Downloads/script.py' This will run the script every day at 5:50am. You can use [Crontab.guru](https://crontab.guru/) to check your expression. 
+      * It should look something like this: **_50 5 * * * /home/pi/Downloads/script.py_** This will run the script every day at 5:50am. You can use [Crontab.guru](https://crontab.guru/) to check your expression. 
       
  <pre># ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
