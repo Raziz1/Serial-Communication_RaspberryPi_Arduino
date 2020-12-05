@@ -47,7 +47,7 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
 ## Raspberry Pi 4 setup
 * In the code you will have to check which USB port to write serial data to.
   1. Press CTRL + ALT + T to open the terminal
-  2. Type in 'ls /dev/tty'. A list of terminals should show up
+  2. Type in 'ls /dev/tty'. A list should show up
   3. Plug in your Arduino board into the usb port and run the same command as in the previous step. Check to see if there are any new list items. It is usually (AMC0 or AMC1)
   4. Find the new list item and input it into the python code where it says 'ser = serial.Serial('/dev/ttyACM1',9600)'
  
