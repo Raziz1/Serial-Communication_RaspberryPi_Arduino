@@ -17,6 +17,7 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
 * This project is a general display that shows the weather, time, date, and snow day prediction using the Raspberry Pi's WIFI capabilities
 * The tft display I used has a touchscreen and so the code is written so that when you touch the screen it changes the snow day prediction to the bus status checker
 * You will have to input your OpenWeatherMap API key as well as your zip code for the snowday predictor
+* The file 'font.h' contains a C char array of the OpenWeatherMap icons (56 x 56).  
 
 ## Libraries 📚
 
@@ -50,4 +51,9 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
   2. Type in 'ls /dev/tty'. A list should show up
   3. Plug in your Arduino board into the usb port and run the same command as in the previous step. Check to see if there are any new list items. It is usually (AMC0 or AMC1)
   4. Find the new list item and input it into the python code where it says 'ser = serial.Serial('/dev/ttyACM1',9600)'
+* Similarly to one of my previous projects you can setup a task scheduler that runs you python script at specified times. This is done by crontab on a raspberry pi.
+  1. Press CTRL + ALT + T to open the terminal
+  2. Type in 'crontab -e'
+  3. At the bottom of the terminal type in the interval of execution as well as the path to the python script
+    * It should look something like this: 
  
