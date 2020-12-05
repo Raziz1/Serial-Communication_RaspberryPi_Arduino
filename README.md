@@ -15,6 +15,8 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
 * The following demonstrates how to communicate between the Raspberry Pi and the Arduino Mega. In this project it is done only one way, from the Raspberry Pi to the Arduino Mega. If you would like to perform two way communcation check out this link on [Serial Communcation Between Raspberry Pi and Arduino](https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/)
 * The python (.py) file is to be run on the Raspberry Pi while the arduino (.ino) file is to be uploaded to the arduino board
 * This project is a general display that shows the weather, time, date, and snow day prediction using the Raspberry Pi's WIFI capabilities
+* The tft display I used has a touchscreen and so the code is written so that when you touch the screen it changes the snow day prediction to the bus status checker
+* You will have to input your OpenWeatherMap API key as well as your zip code for the snowday predictor
 
 ## Libraries 📚
 
