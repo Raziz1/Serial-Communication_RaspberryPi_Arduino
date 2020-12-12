@@ -57,7 +57,7 @@ One way serial communication from Raspberry Pi to Arduino Mega/Uno
   3. At the bottom of the terminal type in the interval of execution as well as the path to the python script
       * It should look something like this: **_50 5 * * * /home/pi/Downloads/script.py_** This will run the script every day at 5:50am. You can use [Crontab.guru](https://crontab.guru/) to check your expression. 
       * Ensure that the script has executable permissions by using `chmod a+x foo.py`
-      * Ensure that the python script contains "shebang" line at the top `#!/usr/bin/python`
+      * Ensure that the python script contains "shebang" line at the top `#!/usr/bin/env python3`
  <pre># ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
 # │ │ ┌───────────── day of the month (1 - 31)
